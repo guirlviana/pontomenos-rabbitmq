@@ -4,7 +4,7 @@ Pontomenos is an application for tracking time points worked. It was made for a 
 
 ### Installation
 
-You may be able to use any version, but i strong recommend `python==3.10`. <br>
+You may be able to use any python version, but i strong recommend `python==3.10`. <br>
 After that, run `pip install -r requirements.txt` to install dependencies.
 
 > 💭 Don't forget to already have rabbitMQ installed in your computer
