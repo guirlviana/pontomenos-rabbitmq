@@ -10,7 +10,6 @@ from rabbitMQ.publisher import Publisher
 
 
 def convert_message_received(ch, method, properties, body):
-    print(ch, method, properties)
     time_expected = randint(0, 5)
     print('\033[93m I get the message!\033[00m')
     print(f"\033[93m Let's start digging, it might take a while! expected time: {time_expected}s\033[00m")
